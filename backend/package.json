@@ -1,0 +1,18 @@
+{
+  "name": "ciro-backend",
+  "version": "1.0.0",
+  "description": "CIRO Backend Services - AI Seekho 2026 Challenge 3",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "simulate": "ts-node src/tests/simulate.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
