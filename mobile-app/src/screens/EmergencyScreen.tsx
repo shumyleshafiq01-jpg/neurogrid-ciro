@@ -255,7 +255,6 @@ const styles = StyleSheet.create({
     borderRadius: 150,
     backgroundColor: '#FF2453',
     opacity: 0.15,
-    blurRadius: 100,
   },
   header: {
     alignItems: 'center',
