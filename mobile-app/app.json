@@ -50,6 +50,16 @@
         "projectId": "36801d54-2e10-4738-9b5e-789fcca4afd1"
       }
     },
-    "owner": "sheikhshumyle"
+    "owner": "sheikhshumyle",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.0.0"
+          }
+        }
+      ]
+    ]
   }
 }
