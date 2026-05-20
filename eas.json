@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 19.0.1",
+    "appVersionSource": "remote",
+    "projectRoot": "mobile-app"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
