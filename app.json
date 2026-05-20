@@ -1,9 +1,65 @@
 {
   "expo": {
+    "name": "CIRO",
+    "slug": "ciro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0E12"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neurogrid.ciro",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch",
+          "processing"
+        ],
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "CIRO requires continuous location tracking to beam heartbeat signals during natural disasters and power grid failures.",
+        "NSLocationAlwaysUsageDescription": "CIRO requires continuous location tracking to beam heartbeat signals during natural disasters and power grid failures.",
+        "NSLocationWhenInUseUsageDescription": "CIRO requires GPS tracking to coordinate local rescue responders and calculate hospital dispatches."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D0E12"
+      },
+      "package": "com.neurogrid.ciro",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION",
+        "WAKE_LOCK",
+        "VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
     "extra": {
       "eas": {
         "projectId": "36801d54-2e10-4738-9b5e-789fcca4afd1"
       }
-    }
+    },
+    "owner": "sheikhshumyle",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.0.0"
+          }
+        }
+      ]
+    ]
   }
 }

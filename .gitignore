@@ -44,3 +44,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Generated android/ios dirs
+android/
+ios/
