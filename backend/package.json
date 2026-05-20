@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "simulate": "ts-node src/tests/simulate.ts"
+    "simulate": "npx ts-node src/tests/simulate.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
